@@ -4,6 +4,6 @@ let book = {
     page: 200,
 };
 
-delete book.page;
+delete book["page"];
 
 console.log(book);
